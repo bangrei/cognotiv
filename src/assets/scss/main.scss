@@ -1,5 +1,26 @@
 @import './font-icon';
 
+.box {
+    &::before{
+        content: "";
+        position: absolute;
+        top: -32px;
+        left: -32px;
+        width: 100px;
+        height: 10px;
+        background: orange;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        top: -32px;
+        left: -32px;
+        height: 100px;
+        width: 10px;
+        background: orange;
+    }
+}
+
 .carousel {
     &__icon {
         min-width: 70px;

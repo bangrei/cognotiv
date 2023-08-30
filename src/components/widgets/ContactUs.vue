@@ -1,6 +1,6 @@
 <template>
     <div class="animate-fade-in transition-all relative flex grow bg-[url('../src/assets/mirror.jpeg')] bg-cover">
-        <div class="absolute right-10 top-20 my-20 mx-20 w-1/2 bg-opacity-50 rounded-md bg-white py-8 px-16">
+        <div class="animate-late-in box absolute right-10 top-20 my-20 mx-20 w-1/2 bg-opacity-50 rounded-md bg-white py-8 px-16">
             <div class="flex flex-col gap-8">
                 <div class="text-4xl text-slate-700 text-left font-extrabold">Type your beautiful name</div>
                 <input type="text" class="p-4 rounded-md outline-none text-xl font-bold"/>
