@@ -1,0 +1,11 @@
+@import './font-icon';
+
+.carousel {
+    &__icon {
+        min-width: 70px;
+        min-height: 70px;
+        border-radius: 50%;
+        background: orange;
+        color: white;
+    }
+}
